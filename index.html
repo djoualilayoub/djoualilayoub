@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayoub Djoualil - Portfolio</title>
+  <title>Ayoub Djoualil | Software Developer</title>
   <link rel="stylesheet" href="style.css">
-  <!-- مكتبة الأيقونات -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navbar -->
+
+  <div class="bg-grid"></div>
+
   <header class="navbar">
     <h1 class="logo">Ayoub<span>.</span></h1>
     <nav>
@@ -20,40 +22,63 @@
       </ul>
     </nav>
   </header>
-<!-- Hero -->
-<section id="home" class="hero">
-  <img src="profile.jpg" alt="Profile" class="profile-img">
-</section>
-    <h2>Ayoub Djoualil</h2>
-    <p>Computer Science Student | Future Developer</p>
-    <div class="socials">
-      <a href="mailto:djoualilayoub4@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://t.me/ayoubdjoualil" target="_blank"><i class="fab fa-telegram"></i></a>
-      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://wa.me/213563787746" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://github.com/djoualilayoub" target="_blank"><i class="fab fa-github"></i></a>
+
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="img-frame">
+        <img src="profile.jpg" alt="Ayoub Djoualil" class="profile-img">
+      </div>
+      <h2 class="typing-text">Hi, I'm Ayoub Djoualil</h2>
+      <p class="tagline">Computer Science Student & <span class="highlight">Full-Stack Explorer</span></p>
+      
+      <div class="socials">
+        <a href="https://github.com/djoualilayoub" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/213563787746" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://t.me/ayoubdjoualil" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:djoualilayoub4@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      
+      <a href="#projects" class="btn-primary">View My Work</a>
     </div>
   </section>
 
-  <!-- Projects -->
   <section id="projects" class="projects">
-    <h2>Projects</h2>
+    <h2 class="section-title">Latest Projects</h2>
     <div class="cards">
-      <div class="card"><h3>Project 1</h3><p>Short description here.</p></div>
-      <div class="card"><h3>Project 2</h3><p>Short description here.</p></div>
-      <div class="card"><h3>Project 3</h3><p>Short description here.</p></div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-code"></i></div>
+        <h3>E-Commerce Platform</h3>
+        <p>Built a full-scale online store using modern frameworks with secure payment integration.</p>
+        <div class="tags"><span>React</span><span>Node.js</span></div>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-microchip"></i></div>
+        <h3>Algorithm Visualizer</h3>
+        <p>A tool to visualize sorting and pathfinding algorithms for CS students.</p>
+        <div class="tags"><span>Python</span><span>PyQt</span></div>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-database"></i></div>
+        <h3>Task Management API</h3>
+        <p>RESTful API with JWT authentication and database optimization.</p>
+        <div class="tags"><span>MongoDB</span><span>Express</span></div>
+      </div>
     </div>
   </section>
 
-  <!-- Contact -->
   <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:djoualilayoub4@gmail.com">djoualilayoub4@gmail.com</a></p>
-    <p>Phone: +213 663 787 746</p>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-box">
+      <p>Building the future, one line of code at a time.</p>
+      <a href="mailto:djoualilayoub4@gmail.com" class="email-link">djoualilayoub4@gmail.com</a>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Ayoub Djoualil. All rights reserved.</p>
+    <p>© 2026 Ayoub Djoualil | Built with Code & Passion</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
